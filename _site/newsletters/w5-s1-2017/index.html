@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ardunio Part 2 - Quad kits | CREATE UNSW</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Allerta+Stencil" />
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Source+Sans+Pro:400,700,200,300|Josefin+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/favico" href="/images/favicon.ico"/>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="alternate" type="application/rss+xml" title="CREATE UNSW" href="/feed.xml">
+	<!-- Begin Jekyll SEO tag v2.2.1 -->
+<title>Ardunio Part 2 - Quad kits | CREATE UNSW</title>
+<meta property="og:title" content="Ardunio Part 2 - Quad kits" />
+<meta name="author" content="Karen Zhong" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="It’s time for our second Arduino Workshop! This week we will be looking at reading, writing analog signals and controlling hardware through human input. Don’t be afraid if you have no electronics or programming experience – we’ve designed the course to be a really easy gateway into DIY coding and circuits from absolute scratch. As always there is FREE PIZZA afterwards! Scroll down to find out more. Want to rewatch Arduino Part 1? Catch up here. Our sales stall on Monday will be at Globe Lawn from 12 - 4pm. If it is raining we will be in front of MCIC instead! Check out our online store. HACKERSPACE: MONDAY (3rd April) 6-8PM MCIC Ground Floor - ARDUINO PART 2 What’s an arduino? It’s a low-cost, open-source microcontroller. It provides an easy way to interface sensors that interact with the external environment to the electrical hardware you wish to control. Whilst the workshop series itself is free, we will recommend all those attending to purchase one our Arduino kits. We will be using the same kits as last week. Once again they will be available to be purchased at both the stall on Monday and during the workshop. You have the option of either the basic $20 kit or a comprehensive kit with the option of either an UNO or MEGA. The kits contain a fantastic variety of experimental components as well as all of the necessities including the Arduino, a breadboard and jumper wires. See here for more information about the kit. ——— What else to bring ——– Your laptop! The software used in the workshops is free and easy to download and install, if you are able to do this before the workshop we can get right to the fun stuff. The current Arduino IDE, free to install: Arduino software Some libraries to operate parts that come with the kits: Library. If you can’t make it to the workshop, watch our live stream on YouTube and check out our Facebook event. See you there! :) RECRUITING - UAS CREATE Unmanned Aerial Systems is looking for new members! Compsci students with experience in ROS, C++ and image recognition, email us at uas@createunsw.com.au and get on board. QUAD KITS FOR SALE CREATE has quadcopter kits for sale! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall! More pics of last week’s CREATE-rs!" />
+<meta property="og:description" content="It’s time for our second Arduino Workshop! This week we will be looking at reading, writing analog signals and controlling hardware through human input. Don’t be afraid if you have no electronics or programming experience – we’ve designed the course to be a really easy gateway into DIY coding and circuits from absolute scratch. As always there is FREE PIZZA afterwards! Scroll down to find out more. Want to rewatch Arduino Part 1? Catch up here. Our sales stall on Monday will be at Globe Lawn from 12 - 4pm. If it is raining we will be in front of MCIC instead! Check out our online store. HACKERSPACE: MONDAY (3rd April) 6-8PM MCIC Ground Floor - ARDUINO PART 2 What’s an arduino? It’s a low-cost, open-source microcontroller. It provides an easy way to interface sensors that interact with the external environment to the electrical hardware you wish to control. Whilst the workshop series itself is free, we will recommend all those attending to purchase one our Arduino kits. We will be using the same kits as last week. Once again they will be available to be purchased at both the stall on Monday and during the workshop. You have the option of either the basic $20 kit or a comprehensive kit with the option of either an UNO or MEGA. The kits contain a fantastic variety of experimental components as well as all of the necessities including the Arduino, a breadboard and jumper wires. See here for more information about the kit. ——— What else to bring ——– Your laptop! The software used in the workshops is free and easy to download and install, if you are able to do this before the workshop we can get right to the fun stuff. The current Arduino IDE, free to install: Arduino software Some libraries to operate parts that come with the kits: Library. If you can’t make it to the workshop, watch our live stream on YouTube and check out our Facebook event. See you there! :) RECRUITING - UAS CREATE Unmanned Aerial Systems is looking for new members! Compsci students with experience in ROS, C++ and image recognition, email us at uas@createunsw.com.au and get on board. QUAD KITS FOR SALE CREATE has quadcopter kits for sale! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall! More pics of last week’s CREATE-rs!" />
+<link rel="canonical" href="http://localhost:4000/newsletters/w5-s1-2017/" />
+<meta property="og:url" content="http://localhost:4000/newsletters/w5-s1-2017/" />
+<meta property="og:site_name" content="CREATE UNSW" />
+<meta property="og:image" content="http://localhost:4000/images/Newsletters/wk5-s1-17.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-03-31T20:45:31+11:00" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"BlogPosting","headline":"Ardunio Part 2 - Quad kits","author":{"@type":"Person","name":"Karen Zhong"},"image":"http://localhost:4000/images/Newsletters/wk5-s1-17.jpg","datePublished":"2017-03-31T20:45:31+11:00","dateModified":"2017-03-31T20:45:31+11:00","description":"It’s time for our second Arduino Workshop! This week we will be looking at reading, writing analog signals and controlling hardware through human input. Don’t be afraid if you have no electronics or programming experience – we’ve designed the course to be a really easy gateway into DIY coding and circuits from absolute scratch. As always there is FREE PIZZA afterwards! Scroll down to find out more. Want to rewatch Arduino Part 1? Catch up here. Our sales stall on Monday will be at Globe Lawn from 12 - 4pm. If it is raining we will be in front of MCIC instead! Check out our online store. HACKERSPACE: MONDAY (3rd April) 6-8PM MCIC Ground Floor - ARDUINO PART 2 What’s an arduino? It’s a low-cost, open-source microcontroller. It provides an easy way to interface sensors that interact with the external environment to the electrical hardware you wish to control. Whilst the workshop series itself is free, we will recommend all those attending to purchase one our Arduino kits. We will be using the same kits as last week. Once again they will be available to be purchased at both the stall on Monday and during the workshop. You have the option of either the basic $20 kit or a comprehensive kit with the option of either an UNO or MEGA. The kits contain a fantastic variety of experimental components as well as all of the necessities including the Arduino, a breadboard and jumper wires. See here for more information about the kit. ——— What else to bring ——– Your laptop! The software used in the workshops is free and easy to download and install, if you are able to do this before the workshop we can get right to the fun stuff. The current Arduino IDE, free to install: Arduino software Some libraries to operate parts that come with the kits: Library. If you can’t make it to the workshop, watch our live stream on YouTube and check out our Facebook event. See you there! :) RECRUITING - UAS CREATE Unmanned Aerial Systems is looking for new members! Compsci students with experience in ROS, C++ and image recognition, email us at uas@createunsw.com.au and get on board. QUAD KITS FOR SALE CREATE has quadcopter kits for sale! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall! More pics of last week’s CREATE-rs!","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/newsletters/w5-s1-2017/"},"url":"http://localhost:4000/newsletters/w5-s1-2017/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+
+    <div class="wrapper">
+	<div class="trigger site-navigation">
+	<ul class="topnav" id="myTopnav">
+	<a class="page-link site-title-banner" href="/">CREATE UNSW</a>
+	
+		<li>
+			<a class="right-nav page-link page-link-item" href="/about/">About</a>
+			<span class="exclamationMark">|</span>
+		</li>
+	
+		<li>
+			<a class="right-nav page-link page-link-item" href="/events/">Events</a>
+			<span class="exclamationMark">|</span>
+		</li>
+	
+		<li>
+			<a class="right-nav page-link page-link-item" href="/media/">Media</a>
+			<span class="exclamationMark">|</span>
+		</li>
+	
+		<li>
+			<a class="right-nav page-link page-link-item" href="/store/">Store</a>
+			<span class="exclamationMark">|</span>
+		</li>
+	
+		<li>
+			<a class="right-nav page-link page-link-item" href="/team/">Team</a>
+			<span class="exclamationMark">|</span>
+		</li>
+	
+	<li><a class="right-nav page-link page-link-item" href="/">Home</a><span class="exclamationMark"></span></li>
+	<li class="icon">
+	<ar href="javascript:void(0);" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></ar>
+	</li>
+	</ul>
+	</div>
+</div>
+<hr class="hr-line"/>
+
+    <div class="page-content">
+        <style type="text/css">
+.post-cover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(/images/Newsletters/wk5-s1-17.jpg);
+  background-attachment: fixed;
+  height: 65vh;
+}
+.post-cover span{
+  font-size: 0.6em;
+  background: red;
+  margin: 0.4em;
+  padding:0.7em;
+  box-shadow: 4px 4px 2px black;
+  display: inline-block;
+}
+.post-cover span b{
+  text-shadow: 2px 2px black;
+}
+
+</style>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="jumbotron general-cover post-cover" >
+      <div class="wrapper"><button class="btn btn-primary" onclick="location.href='/media/#newsletters'"> <i class="fa fa-arrow-left" aria-hidden="true"></i> Media</button></div>
+      <div class="wrapper">
+        <br>
+        <h1 class="post-title" itemprop="name headline">Ardunio Part 2 - Quad kits</h1>
+        <center style="margin-top: -20px">
+          <span>
+          
+            By<strong><b class="small-site-title"> Karen Zhong </b></strong>on
+           
+          
+            <time datetime="2017-03-31T20:45:31+11:00" itemprop="datePublished">Mar 31, 2017</time>
+          
+          </span>
+        </center>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="post-content" itemprop="articleBody">
+      <p>It’s time for our second Arduino Workshop! This week we will be looking at reading, writing analog signals and controlling hardware through human input. Don’t be afraid if you have no electronics or programming experience – we’ve designed the course to be a really easy gateway into DIY coding and circuits from absolute scratch. As always there is FREE PIZZA afterwards! Scroll down to find out more.</p>
+
+<p>Want to rewatch Arduino Part 1? Catch up <a href="https://www.youtube.com/watch?v=kCIE28aLjpc">here</a>.</p>
+
+<p>Our sales stall on Monday will be at Globe Lawn from 12 - 4pm. If it is raining we will be in front of MCIC instead! Check out our <a href="http://www.createunsw.com.au/store/">online store</a>.</p>
+
+<h2 id="hackerspace-monday-3rd-april-6-8pm">HACKERSPACE: MONDAY (3rd April) 6-8PM</h2>
+<h3 id="mcic-ground-floor---arduino-part-2">MCIC Ground Floor - ARDUINO PART 2</h3>
+
+<p>What’s an arduino? It’s a low-cost, open-source microcontroller. It provides an easy way to interface sensors that interact with the external environment to the electrical hardware you wish to control.</p>
+
+<p>Whilst the workshop series itself is free, we will recommend all those attending to purchase one our Arduino kits. We will be using the same kits as last week. Once again they will be available to be purchased at both the stall on Monday and during the workshop.</p>
+
+<p>You have the option of either the basic $20 kit or a comprehensive kit with the option of either an UNO or MEGA. The kits contain a fantastic variety of experimental components as well as all of the necessities including the Arduino, a breadboard and jumper wires.</p>
+
+<p>See here for more information about the kit.</p>
+
+<h3 id="--what-else-to-bring-">———  What else to bring ——–</h3>
+
+<p>Your laptop! The software used in the workshops is free and easy to download and install, if you are able to do this before the workshop we can get right to the fun stuff.</p>
+<ul>
+  <li>The current Arduino IDE, free to install: <a href="https://www.arduino.cc/en/Main/Software">Arduino software</a></li>
+  <li>Some libraries to operate parts that come with the kits: Library.</li>
+</ul>
+
+<p>If you can’t make it to the workshop, watch our <a href="https://www.youtube.com/c/createunsw/live">live stream</a> on YouTube and check out our Facebook event. See you there! :)</p>
+
+<h2 id="recruiting---uas">RECRUITING - UAS</h2>
+<p><img src="/images/Newsletters/uas.jpeg" alt="CREATE UAS" />
+CREATE Unmanned Aerial Systems is looking for new members! Compsci students with experience in ROS, C++ and image recognition, email us at uas@createunsw.com.au and get on board.</p>
+
+<h2 id="quad-kits-for-sale">QUAD KITS FOR SALE</h2>
+<p><img src="/images/Newsletters/quad.jpg" alt="Quadcopters" />
+CREATE has quadcopter kits for sale! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall!</p>
+
+<h2 class="center" id="more-pics-of-last-weeks-create-rs">More pics of last week’s CREATE-rs!</h2>
+<p><img src="/images/Newsletters/wk5-s1-17-1.jpg" alt="" />
+<img src="/images/Newsletters/wk5-s1-17-2.jpg" alt="" /></p>
+
+    </div>
+
+    <footer class="postNavigation">
+    
+      <a class="postPrev" href="/newsletters/w4-s1-2017/">
+          &laquo; Our most popular workshop & Learn Arduino
+      </a>
+    
+    
+      <a class="postNext" href="/newsletters/w6-s1-2017/">
+          Final Arduino workshop, quad kits and job opportunities! &raquo;
+      </a>
+    
+    </footer>
+  </div>
+
+</article>
+
+<div class="wrapper">
+  <hr style="margin-top: 2em; height: 1px; border: 0; border-top: 1px solid #E8E8E8; padding-bottom: 20px"/>
+  <div id="disqus_thread"></div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = '//createunsw.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </div>
+
+    <br><br><footer class="site-footer">
+	<script src="/js/jquery-latest.min.js"></script>
+	<script src="/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="/js/site-menu.js"></script>
+
+	<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top"
+		role="button" title="Back to Top" data-toggle="tooltip" data-placement="top">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	</a>
+
+	<div class="wrapper">
+		<div class="row footer-content quick-links">
+			<div class="col-sm-3">
+			  <ul class="contact-list">
+			  	<li><a href="/"><b>Homepage</b></a></li>
+			  	<li><a href="/#mailing">Mailing List</a></li>
+			  	<li><a href="/#sponsors">Sponsors</a></li>
+			  	<li><a href="/#join-us">Join Us</a></li>
+			  	<li><a href="/events/#workshops">Workshops</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="contact-list">
+			  	<li><a href="/store/"><b>CREATE Store</b></a></li>
+			  	<li><a href="/store/#mircocontrollers">Microcontrollers</a></li>
+			  	<li><a href="/store/#quadcopters">Quadcopters</a></li>
+			  	<li><a href="/store/#breadboards">Breadboards</a></li>
+			  	<li><a href="/store/#kits">Kits</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="contact-list">
+			  	<li><a><b>Projects & Events</b></a></li>
+			  	<li><a href="/starters/">CREATE Starters</a></li>
+			  	<li><a href="/events/#upcoming-events">Upcoming Events</a></li>
+			  	<li><a href="http://projects.createunsw.com.au" target="_blank">OpenProjects</a></li>
+			  	<li><a href="/questnet/">Questnet</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="contact-list">
+			  	<li><a><b>Follow Us</b></a></li>
+			  	<li><a target="_blank" href="https://facebook.com/CreateUNSW"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> Facebook</a></li>
+			  	<li><a target="_blank" href="https://instagram.com/CreateUNSW"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i> Instagram</a></li>
+			  	<li><a target="_blank" href="https://www.youtube.com/user/createunsw"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i> Youtube</a></li>
+			  	<li><a target="_blank" href="https://github.com/createunsw"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a></li>
+			  </ul>
+			</div>
+ 			<hr>
+		</div><br><br>
+		<div class="footer-col-wrapper">
+			<div class="footer-col">
+				<ul class="contact-list footer-content">
+					<li>Copyright <i class="fa fa-copyright"></i> 2017, <a href="http://www.createunsw.com.au/">CREATE NSW Inc</a>. All Rights Reserved.</li>
+					<li>
+						Hosted on <a target="_blank" href="https://github.com/createunsw/createunsw.github.io"><i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a>. 
+						Powered by <a target="_blank" href="https://jekyllrb.com/"><i class="fa fa-code" aria-hidden="true"> Jekyll</i></a>.
+					</li>
+					<li><small>Built by <a href="https://github.com/mrchrisjoy" target="_blank"> <i class="fa fa-space-shuttle" aria-hidden="true"></i>  Chris Joy</a>.</small></li>
+				</ul>
+			</div>
+			<div class='footer-col-3 sponsors footer-content' style="float:right">
+				<a HREF='http://www.arc.unsw.edu.au/' target="_blank"><img src='/images/Sponsors/arc.jpg' /></a>
+				<a HREF='http://www.cochlear.com/' target="_blank"><img src='/images/Sponsors/cochlear-logo.png' /></a>
+			    <a HREF='http://www.eventengineering.com.au/' target="_blank"><img src='/images/Sponsors/event.png' /></a>
+				<a HREF='https://www.unsw.edu.au/' target="_blank"><img src='/images/Sponsors/alCw19yT.jpg' /></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+  </body>
+
+</html>
