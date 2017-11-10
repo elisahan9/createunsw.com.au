@@ -2,7 +2,7 @@
 categories: projects
 title: Vivid Sydney 2017 - Crystallise
 slug: vivid-crystallise
-image: https://scontent.fsyd3-1.fna.fbcdn.net/v/t31.0-8/18623354_789618434546947_1956353683817653790_o.jpg?oh=a2d01306c1649b0947339a1d707adbff&oe=59B3AC7A
+image: https://lh6.googleusercontent.com/rKMXEwPCBZKSYUtr6vmUG4SGBkzbQyJQM_0nR0FJlTNJQjJMPR7g19ZodpWCDZRD96xF0L3bEPVDMqg=w1920-h917-rw
 layout: post
 author: Jun Moey
 date: 2017-05-28 19:45:31 +1000
