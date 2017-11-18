@@ -3,11 +3,11 @@ title: "Christopher Ho"
 face-url: "/images/Main/exec_chris_ho.jpg"
 cover-url: ""
 role: "VP of Sponsorship"
-index: 4
-email-url: sponsorship@createunsw.com.au
+index: 126
+email-url:
 linkedin-url:
 github-url:
-status: current_executive
+status: past_executive
 year: 2017
 layout: people
 ---

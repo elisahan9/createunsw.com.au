@@ -3,11 +3,11 @@ title: "Nathan Lam"
 face-url: "/images/Main/exec_nathan_lam.jpg"
 cover-url: ""
 role: "Co-Director of Sales"
-index: 4
-email-url: sales@createunsw.com.au
+index: 126
+email-url:
 linkedin-url:
 github-url:
-status: current_executive
+status: past_executive
 year: 2017
 layout: people
 ---

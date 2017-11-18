@@ -11,6 +11,4 @@ status: past_executive
 year: 2015
 layout: people
 ---
-2015 Doer of Things (CTO)
-<br>2013 Secretary
-
+2015 Doer of Things (CTO), 2013 Secretary

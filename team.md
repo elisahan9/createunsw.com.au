@@ -8,7 +8,7 @@ type: section
 
 <style type="text/css">
 .team-cover {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/images/Cover/team-1.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/images/Cover/2018_team.jpg);
 }
 </style>
 
@@ -20,8 +20,6 @@ type: section
     </center>
   </div>
 </div>
-
-
 
 <!---- CURRENT EXECUTIVES ---->
 <div class="wrapper">
@@ -86,7 +84,6 @@ type: section
         <img src="{{ person.face-url }}" alt="{{ person.title }}">
         <div class="profile-container">
         <b><a href="{{ site.baseurl }}{{ person.url }}">{{ person.title }}</a></b>
-
         <p>{{ person.role }}</p>
         {% if person.email-url  %}
           <a href="mailto:{{ person.email-url }}" target="_blank" class="btn btn-secondary"><i class="fa fa-envelope-o"></i></a>
@@ -107,8 +104,6 @@ type: section
   {% endif %}
 {% endfor %}
 </div>
-
-
 
 <!---- PAST EXECUTIVES ---->
 <div class="wrapper">
@@ -132,7 +127,7 @@ type: section
         <div class="profile-container">
         <b><a href="{{ site.baseurl }}{{ person.url }}">{{ person.title }}</a></b>
         {% if person.content %}
-          <p>{{ person.content }}</p>
+          <p>{{ person.content | strip_html | truncatewords:18 }}</p>
         {% endif %}
         {% if person.email-url  %}
           <a href="mailto:{{ person.email-url }}" target="_blank" class="btn btn-secondary"><i class="fa fa-envelope-o"></i></a>
@@ -153,7 +148,6 @@ type: section
   {% endif %}
 {% endfor %}
 </div>
-
 
 <!---- PAST CONTRIBUTORS ---->
 <div class="wrapper">
@@ -203,7 +197,6 @@ type: section
       <hr><i class="fa fa-user fa-lg" aria-hidden="true"></i>
       <strong>All Executives</strong>
     </div>
-
     <div class="portfolio-content">
     <div style="display: inline">
       {% assign exec =  site.people %}
@@ -214,15 +207,12 @@ type: section
   </div>
 </div>
 
-
-
 <div class="wrapper">
   <div class="manual-post">
     <div class="manual manual-title">
       <i class="fa fa-share-square-o fa-lg" aria-hidden="true"></i>
       <strong>Our Social Presence</strong>
     </div>
-
     <div class="portfolio-content">
       <a href="https://www.youtube.com/user/createunsw" target="_blank"><i class="fa fa-youtube fa-5x" aria-hidden="true"></i></a>
       <a href="https://facebook.com/CreateUNSW" target="_blank"><i class="fa fa-facebook fa-5x" aria-hidden="true"></i></a>

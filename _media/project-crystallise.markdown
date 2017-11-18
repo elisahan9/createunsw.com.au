@@ -2,7 +2,7 @@
 categories: projects
 title: Vivid Sydney 2017 - Crystallise
 slug: vivid-crystallise
-image: https://lh6.googleusercontent.com/rKMXEwPCBZKSYUtr6vmUG4SGBkzbQyJQM_0nR0FJlTNJQjJMPR7g19ZodpWCDZRD96xF0L3bEPVDMqg=w1920-h917-rw
+image: /images/Newsletters/wk12-s1-17-3.gif
 layout: post
 author: Jun Moey
 date: 2017-05-28 19:45:31 +1000

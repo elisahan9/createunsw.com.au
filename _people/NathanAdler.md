@@ -11,6 +11,5 @@ github-url:
 status: past_executive
 layout: people
 ---
-2014-2015 President
-<br>2013 VP of Events
+2014-2015 President, 2013 VP of Events
 

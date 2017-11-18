@@ -13,7 +13,6 @@ Thanks to everyone who came along to our BBQ on Monday! We've got an exciting se
 {:.center}
 ![](/images/Newsletters/wk2-s1-17-1.jpg)
 
-
 ## HACKERSPACE W3
 ###  MONDAY 6-8PM MCIC
 ### ELECTRONICS - Simple Circuitry on Breadboards

@@ -11,6 +11,5 @@ status: past_executive
 year: 2015
 layout: people
 ---
-2015 Co-Director of Sales
-<br>2014 Head of Sales
+2015 Co-Director of Sales, 2014 Head of Sales
 

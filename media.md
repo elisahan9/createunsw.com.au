@@ -9,7 +9,7 @@ type: section
 
 <style type="text/css">
 .team-cover {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(/images/Cover/media-1.jpg);
+	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(/images/Cover/team-1.jpg);
 }
 </style>
 
