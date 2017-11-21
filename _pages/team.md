@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Team
+permalink: /team/
 tagline: "we are entirely composed of student volunteers."
 description: CREATE is entirely composed of student volunteers.
 type: section

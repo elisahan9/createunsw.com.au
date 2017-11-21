@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+permalink: /about/
 tagline: "we provide opportunities for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects..."
 description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
 type: section
