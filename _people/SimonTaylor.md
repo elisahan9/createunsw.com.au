@@ -1,6 +1,6 @@
 ---
 title: "Simon Taylor"
-face-url: "/images/Main/exec_simon_taylor.jpg"
+face-url: "/images/Main/SimonTaylor.jpg"
 cover-url: ""
 role: "Treasurer"
 index: 5
