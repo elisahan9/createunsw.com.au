@@ -1,6 +1,6 @@
 ---
 title: "Elisa Han"
-face-url: "/images/Main/default-avatar.png"
+face-url: "/images/Main/ElisaHan.jpg"
 cover-url: ""
 role: "Co-VP of Sales"
 index: 7

@@ -1,6 +1,6 @@
 ---
 title: "James Yosua"
-face-url: "/images/Main/default-avatar.png"
+face-url: "/images/Main/JamesYosua.jpg"
 cover-url: ""
 role: "Co-VP of Sales"
 index: 8

@@ -1,6 +1,6 @@
 ---
 title: "Kartin Leung"
-face-url: "/images/Main/default-avatar.png"
+face-url: "/images/Main/KartinLeung.jpg"
 cover-url: ""
 role: "Head of Media & Marketing"
 index: 9

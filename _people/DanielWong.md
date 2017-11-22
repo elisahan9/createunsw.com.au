@@ -1,6 +1,6 @@
 ---
 title: "Daniel Wong"
-face-url: "/images/Main/default-avatar.png"
+face-url: "/images/Main/DanielWong.jpg"
 cover-url: ""
 role: "Secretary"
 index: 4

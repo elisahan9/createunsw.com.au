@@ -1,6 +1,6 @@
 ---
-title: "Linda Troung"
-face-url: "/images/Main/default-avatar.png"
+title: "Linda Truong"
+face-url: "/images/Main/LindaTruong.jpg"
 cover-url: ""
 role: "Arc Delegate"
 index: 6

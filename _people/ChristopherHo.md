@@ -1,6 +1,6 @@
 ---
 title: "Christopher Ho"
-face-url: "/images/Main/exec_chris_ho.jpg"
+face-url: "/images/Main/ChristopherHo.jpg"
 cover-url: ""
 role: "VP of Sponsorship"
 index: 126
