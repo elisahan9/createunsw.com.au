@@ -1,6 +1,6 @@
 ---
 title: "Jason Phu"
-face-url: "/images/Main/exec_Jason_phu.jpeg"
+face-url: "/images/Main/JasonPhu.jpg"
 cover-url: ""
 role: "VP of Events"
 index: 3

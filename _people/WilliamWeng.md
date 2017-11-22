@@ -1,6 +1,6 @@
 ---
 title: "William Weng"
-face-url: "/images/Main/exec_william_weng.jpg"
+face-url: "/images/Main/WilliamWeng.jpg"
 cover-url: ""
 role: "Chief Technical Officer"
 index: 3
