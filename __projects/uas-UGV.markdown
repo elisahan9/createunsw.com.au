@@ -1,5 +1,5 @@
 ---
-categories: projects
+categories: create-uas
 title: Unmanned Ground Vehicle
 slug: UGV
 image: /images/Projects/ugv1.jpeg

@@ -1,33 +1,32 @@
 ---
 layout: default
 title: Media
-permalink: /media/
-tagline: "we are entirely composed of student volunteers."
+permalink: /projects/
+tagline: "create starters and projects"
 description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
 type: section
 ---
 
 <style type="text/css">
-	.media-cover {
-		background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/Cover/media.jpg);
+	.projects-cover {
+		background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/images/Cover/team-1.jpg);
 	}
 </style>
 
-<div class="jumbotron general-cover media-cover">
+<div class="jumbotron general-cover projects-cover">
 	<div class="wrapper">
 		<center>
 			<h1>
-				<b>MEDIA</b>
+				<b>PROJECTS</b>
 			</h1>
-			<span>WEB STREAMS /
-				<b>NEWSLETTERS</b> / BLOG POSTS</span>
+			<span>PROJECTS /
+				<b>STARTERS</b> / NEWSLETTERS</span>
 		</center>
 	</div>
 </div>
-
 <div class="wrapper">
 	<div class="postBody">
-		{% assign cats = site._media | map: 'categories' | join: ',' | split: ',' | uniq %}
+		{% assign cats = site._projects | map: 'categories' | join: ',' | split: ',' | uniq | reverse %}
 		{% for cat in cats %}
 		<div class="manual-post">
 			<div class="manual manual-title" id="{{ cat }}">
@@ -35,7 +34,7 @@ type: section
 			</div>
 		</div>
 		<div class="row post-list">
-		{% assign posts = site._media | sort:"date" | reverse %}
+		{% assign posts = site._projects | sort:"date" | reverse %}
 		{% for post in posts%} {% if post.categories contains cat %}
 		<div class="col-6 col-md-6 col-sm-6 post-card-col">
 			<div style="background: url('{{post.image}}'); background-size: cover"

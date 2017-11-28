@@ -1,5 +1,5 @@
 ---
-categories: projects
+categories: create-vivid
 title: Vivid Sydney 2017 - Crystallise
 slug: vivid-crystallise
 image: /images/Newsletters/wk12-s1-17-3.gif

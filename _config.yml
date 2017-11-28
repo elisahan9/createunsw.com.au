@@ -18,12 +18,15 @@ markdown: kramdown
 include: ['_pages']
 
 collections:
-  products:
+  _products:
     output: true
     permalink: /store/:title/
-  media:
+  _media:
     output: true
     permalink: /:categories/:title/
-  people:
+  _people:
     output: true
     permalink: /team/:title/
+  _projects:
+    output: true
+    permalink: /projects/:title/

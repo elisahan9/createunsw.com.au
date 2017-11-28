@@ -2,3 +2,4 @@ serve
 .sass-cache
 .jekyll-metadata
 **.orig
+_site

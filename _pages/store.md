@@ -40,32 +40,35 @@ type: section
 		you are outside of UNSW, please email your enquiry to sales@createunsw.com.au.
 	</div>
 	<div style="display: inline">
-		<hr> {% assign cats = site.products | map: 'category' | join: ',' | split: ',' | uniq %} {% for cat in cats %}
+		<hr> {% assign cats = site._products | map: 'category' | join: ',' | split: ',' | uniq %} {% for cat in cats %}
 		<button class="btn btn-standard store-btn" onclick="location.href='#{{ cat }}'">
 			<a>{{ cat }}</a>
 		</button>
 		{% endfor %}
 		<hr>
 	</div>
-	<div style="margin: 0 auto;">
-		{% assign cats = site.products | map: 'category' | join: ',' | split: ',' | uniq %} {% for cat in cats %}
-		<div class="postBody">
-			<div class="manual-post">
-				<div class="manual manual-title" id="{{ cat }}">
-					<strong>{{ cat }}</strong>
-				</div>
+	{% assign cats = site._products | map: 'category' | join: ',' | split: ',' | uniq %}
+	{% for cat in cats %}
+	<div class="postBody">
+		<div class="manual-post">
+			<div class="manual manual-title" id="{{ cat }}">
+				<strong>{{ cat }}</strong>
 			</div>
-			<br> {% assign products = site.products | sort:"title" %}
-			<div class="product-pod">
-				{% for post in products%} {% if post.category contains cat %}
-				<div class="card" style="width: 225px; height: auto;">
-					<a href="{{ site.baseurl }}{{ post.url }}" alt="{{ post.title }}">
-						<img class="card-img-top" src="{% if post.image %} {{ post.image }} {% else %} {{ '/images/Sales/no-photo.jpg' }} {% endif %}"
-						    alt="{{ post.title }}">
-						<b class="card-title" style="padding: 10px;">{{ post.title }}</b>
-					</a>
-					<div class="card-block" style="padding: 10px;">
-						<p class="card-text">{{ post.content | strip_html | truncatewords:10}}</p>
+		</div>
+		<div class="row post-list">
+			{% assign products = site._products | sort:"title" %}
+			{% for post in products%} {% if post.category contains cat %}
+			<div class="col-4 col-md-4 col-sm-4 post-card-col">
+				<div style="background: url('{% if post.image %} {{ post.image }} {% else %} {{ '/images/Sales/no-photo.jpg' }} {% endif %}'); background-size: cover"
+					class="card">
+					<div class="row post-card-col post-card-col-btn">
+						<div class="col-4 col-md-4">
+							<a href="{{post.url}}"><div class="post-card-btn">View Item</div></a>
+						</div>
+					</div>
+					<div class="post-card-contents">
+						<h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
+						<p>{{ post.content | strip_html | truncatewords:10}}</p>
 						<div style="display: inline">
 							<form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
 								<input type='hidden' name='add' value='1'>
@@ -77,7 +80,7 @@ type: section
 								<input type='hidden' name='no_note' value='1' />
 								<input type='hidden' name='currency_code' value='AUD' />
 								<input type='hidden' name='lc' value='AU'>
-								<input style="width:40px;" type='number' name='quantity' value='1' min="1">
+								<input style="color:black;width:30px;" type='number' name='quantity' value='1' min="1">
 								<button class="btn btn-secondary" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
 									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 								</button>
@@ -88,9 +91,11 @@ type: section
 						</div>
 					</div>
 				</div>
-				{% endif %} {% endfor %}
 			</div>
-		</div>
+		{% endif %}
 		{% endfor %}
+		</div>
 	</div>
+	{% endfor %}
 </div>
+{% include page_bottom.html %}

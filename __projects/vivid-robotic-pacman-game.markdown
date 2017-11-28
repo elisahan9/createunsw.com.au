@@ -1,5 +1,5 @@
 ---
-categories: projects
+categories: create-vivid
 title: Robotic Pacman
 slug: robotic-pacman
 image: /images/Projects/pacman3.jpeg

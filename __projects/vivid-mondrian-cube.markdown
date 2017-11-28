@@ -1,5 +1,5 @@
 ---
-categories: projects
+categories: create-vivid
 title: Vivid Sydney 2016 - Mondrian Cube
 slug: mondrian-cube
 image: /images/Projects/mondrian1.jpeg

@@ -1,5 +1,5 @@
 ---
-categories: projects
+categories: create-starters
 title: Pedal Power Generator
 slug: pedal-power-generator
 image: /images/Projects/bikeology2.jpeg

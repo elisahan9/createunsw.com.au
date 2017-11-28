@@ -1,5 +1,5 @@
 ---
-categories: projects
+categories: create-uas
 title: UAV Outback Challenge
 slug: UAV-Outback-Challenge
 image: /images/Projects/uav1.jpeg

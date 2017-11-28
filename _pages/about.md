@@ -44,7 +44,7 @@ type: section
 
     <br><br>CREATE’s activities include designing and presenting workshops on Arduino microcontrollers, CAD modeling, and UAV development. CREATE consults with individuals and groups within and outside of UNSW on a variety of projects. CREATE also enters teams in robotics competitions and sources robotic and electrical components in bulk to supply to UNSW students in weekly sales during semester.
 
-    <br><br>CREATE currently has a membership of over 1500 students. The club was awarded Arc Club of the Year in 2013 and 2015. In 2015, current president and founding member Nathan Adler, founding president Sam Cassisi and another founder Austin Kong were recognized by the UNSW Faculty of Engineering with Student Service Awards for their contributions to the UNSW community through CREATE.
+    <br><br>CREATE currently has a membership of over 2000 students. The club was awarded Arc Club of the Year in 2013 and 2015, as well as, Arc Regular Club of the Year 2017 and Arc Best Off-campus Activity for Crystallise 2017. In 2015, current president and founding member Nathan Adler, founding president Sam Cassisi and another founder Austin Kong were recognized by the UNSW Faculty of Engineering with Student Service Awards for their contributions to the UNSW community through CREATE.
   </div>
 </div>
 </div>

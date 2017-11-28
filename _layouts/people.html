@@ -16,6 +16,7 @@ layout: default
   min-height: 40vh;
   max-height: 60vh;
 }
+
 .people-cover span {
   min-width: 80px;
   font-color: white;
@@ -33,32 +34,41 @@ layout: default
   width: 160px;
   height: auto;
 }
-
 </style>
 
-
-<div class="jumbotron general-cover people-cover" >
-  <div class="wrapper"><button class="btn btn-primary" onclick="location.href='/team/#{{ page.status }}'"> <i class="fa fa-arrow-left" aria-hidden="true"></i> Team</button></div>
-  <div class="wrapper"><br><br>
-    <h1 class="post-title" itemprop="name headline"><b>{{ page.title }}</b></h1>
+<div class="jumbotron general-cover people-cover">
+  <div class="wrapper">
+    <button class="btn btn-primary" onclick="location.href='/team/#{{ page.status }}'">
+      <i class="fa fa-arrow-left" aria-hidden="true"></i> Team</button>
+  </div>
+  <div class="wrapper">
+    <br>
+    <br>
+    <h1 class="post-title" itemprop="name headline">
+      <b>{{ page.title }}</b>
+    </h1>
     <center style="margin-top: -20px">
       <span>
-      {% if page.role %}
-        <strong><b class="small-site-title"> {{page.role}} </b></strong>
-      {% endif %}
-      {% if page.year %}
-        - <time datetime="{{ page.year }}">{{ page.year }}</time>
-      {% endif %}
-      <br>
-      {% if page.email-url  %}
-        <a href="mailto:{{ page.email-url }}" target="_blank" class="btn btn-secondary"><i class="fa fa-envelope-o fa-lg"></i></a>
-      {% endif %}
-      {% if page.linkedin-url  %}
-        <a href="{{ page.linkedin-url }}" target="_blank" class="btn btn-secondary"><i class="fa fa-linkedin fa-lg"></i></a>
-      {% endif %}
-      {% if page.github-url  %}
-        <a href="{{ page.github-url }}" target="_blank" class="btn btn-secondary"><i class="fa fa-github fa-lg"></i></a>
-      {% endif %}
+        {% if page.role %}
+        <strong>
+          <b class="small-site-title"> {{page.role}} </b>
+        </strong>
+        {% endif %} {% if page.year %} -
+        <time datetime="{{ page.year }}">{{ page.year }}</time>
+        {% endif %}
+        <br> {% if page.email-url %}
+        <a href="mailto:{{ page.email-url }}" target="_blank" class="btn btn-secondary">
+          <i class="fa fa-envelope-o fa-lg"></i>
+        </a>
+        {% endif %} {% if page.linkedin-url %}
+        <a href="{{ page.linkedin-url }}" target="_blank" class="btn btn-secondary">
+          <i class="fa fa-linkedin fa-lg"></i>
+        </a>
+        {% endif %} {% if page.github-url %}
+        <a href="{{ page.github-url }}" target="_blank" class="btn btn-secondary">
+          <i class="fa fa-github fa-lg"></i>
+        </a>
+        {% endif %}
       </span>
     </center>
   </div>
@@ -69,41 +79,30 @@ layout: default
   <div class="wrapper">
 
     <div class="post-content" itemprop="articleBody">
-      <h2> <img src="{{ page.face-url }}" class="img-thumbnail profile-pic" alt="{{ page.title }}"></img> <small>({{ page.role }} - {{ page.year }})</small> </h2>
+      <h2>
+        <img src="{{ page.face-url }}" class="img-thumbnail profile-pic" alt="{{ page.title }}"></img>
+      </h2>
       {{ content }}
     </div>
     <br>
-
-
-    <hr><footer class="postNavigation">
-    {% if page.previous.url %}
+    <hr>
+    <footer class="postNavigation">
+      {% if page.previous.url %}
       <div>
-        <a href="{{page.previous.url}}"><img src="{{ page.previous.face-url }}" class="img-thumbnail profile-pic text-img" alt="{{page.previous.title}}"></img></a>
+        <a href="{{page.previous.url}}">
+          <img src="{{ page.previous.face-url }}" class="img-thumbnail profile-pic text-img" alt="{{page.previous.title}}"></img>
+        </a>
         <a class="postPrev" href="{{page.previous.url}}">{{page.previous.title}}</a>
       </div>
-    {% endif %}
-    {% if page.next.url %}
+      {% endif %} {% if page.next.url %}
       <div>
-        <a href="{{page.next.url}}"><img src="{{ page.next.face-url }}" class="img-thumbnail profile-pic text-img" style="float:right;" alt="{{page.next.title}}"></img></a>
+        <a href="{{page.next.url}}">
+          <img src="{{ page.next.face-url }}" class="img-thumbnail profile-pic text-img" style="float:right;" alt="{{page.next.title}}"></img>
+        </a>
         <a class="postNext" href="{{page.next.url}}">{{page.next.title}}</a>
       </div>
-    {% endif %}
+      {% endif %}
     </footer>
-
-    <div class="manual-post">
-      <div class="manual manual-title">
-        <i class="fa fa-user fa-lg" aria-hidden="true"></i>
-        <strong>All Executives</strong>
-      </div>
-
-      <div class="portfolio-content">
-      <div style="display: inline">
-        {% assign exec =  site.people %}
-        {% for cat in exec %}
-        <button class="btn btn-standard store-btn" onclick="location.href='{{ cat.url }}'"><a>{{ cat.title }}</a></button>
-        {% endfor %}
-      </div>
-    </div>
 
   </div>
 
