@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Media
+title: Projects
 permalink: /projects/
 tagline: "create starters and projects"
 description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
