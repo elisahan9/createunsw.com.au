@@ -69,7 +69,7 @@ type: section
 					<div class="post-card-contents">
 						<h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
 						<p>{{ post.content | strip_html | truncatewords:10}}</p>
-						<div style="display: inline">
+						<div style="display:inline;">
 							<form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
 								<input type='hidden' name='add' value='1'>
 								<input type='hidden' name='cmd' value='_cart'>
@@ -80,8 +80,8 @@ type: section
 								<input type='hidden' name='no_note' value='1' />
 								<input type='hidden' name='currency_code' value='AUD' />
 								<input type='hidden' name='lc' value='AU'>
-								<input style="color:black;width:30px;" type='number' name='quantity' value='1' min="1">
-								<button class="btn btn-secondary" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
+								<input style="width:30px;color:black;" type='number' name='quantity' value='1' min="1">
+								<button class="btn btn-secondary" style="color:black;" type='submit' name='submit' alt='Add this item to your paypal cart.' value='Purchase'>
 									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 								</button>
 								{% assign price_split = post.price | round: 2 | split: "." %} {% assign integral = price_split[0] %} {% assign fractional

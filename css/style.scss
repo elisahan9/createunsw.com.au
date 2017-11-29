@@ -29,7 +29,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    1024px;
+$content-width:    1224px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -981,7 +981,7 @@ pre {
   text-shadow: 4px 4px black;
 }
 .general-cover span{
-  font-size: 1em;
+  font-size: 1.15em;
   background: red;
   margin: 0.4em;
   padding:0.7em;

@@ -19,7 +19,7 @@ type: section
 			<h1>
 				<b>MEDIA</b>
 			</h1>
-			<span>WEB STREAMS /
+			<span>LIVE STREAMS /
 				<b>NEWSLETTERS</b> / BLOG POSTS</span>
 		</center>
 	</div>

@@ -19,8 +19,8 @@ type: section
 			<h1>
 				<b>PROJECTS</b>
 			</h1>
-			<span>PROJECTS /
-				<b>STARTERS</b> / NEWSLETTERS</span>
+			<span>VIVID /
+				<b>UAS</b> / STARTERS</span>
 		</center>
 	</div>
 </div>
