@@ -242,15 +242,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: #aaa !important;
-    text-decoration: none;
+  color: #aaa !important;
+  text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+      color: darken($brand-color, 15%);
     }
 
     &:hover {
-        color: black !important;
+      color: black !important;
     }
 
     &.page-link{
@@ -273,7 +273,6 @@ a {
     &.post-title-link{
       color: black !important;
       &:hover {
-
           border-bottom: 1px dotted black !important ;
       }
 
@@ -477,17 +476,19 @@ pre {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
-  color: black;  
+  color: black;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
 .site-title-banner {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 23px;
   color: black;
   font-weight: bold;
-  font-family: "Helvetica";
 }
+.site-title-banner:hover {
+  text-transform: none;
+}  
 .hr-line {
   margin-top: 2em;
   height: 1px;
@@ -894,9 +895,6 @@ pre {
 .sponsors img {
   float:right;
   height: 5rem;
-}
-.sponsors img:hover {
-  height: 5.5rem;
 }
 
 #slideshow {
