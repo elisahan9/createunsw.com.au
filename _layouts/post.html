@@ -21,12 +21,12 @@ layout: default
         {% if page.date %}
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
         {% endif %}
-      </span>        
+      </span>
     </center>
   </div>
 </div>
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">    
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="wrapper">
     <div class="post-content" itemprop="articleBody">
       {{ content }}
@@ -35,12 +35,12 @@ layout: default
     <footer class="postNavigation">
     {% if page.previous.url %}
       <a class="postPrev" href="{{page.previous.url}}">
-          &laquo; {{page.previous.title}}
+				&laquo; {{page.previous.title}}
       </a>
     {% endif %}
     {% if page.next.url %}
       <a class="postNext" href="{{page.next.url}}">
-          {{page.next.title}} &raquo;
+				{{page.next.title}} &raquo;
       </a>
     {% endif %}
     </footer>
