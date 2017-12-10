@@ -3,6 +3,7 @@ layout: page
 title: STARTERS
 permalink: /starters/
 description: CREATE is very excited to introduce our very own project incubator, CREATE Starters. If you have an idea for a project that involves putting together and making any project, we want to provide you with everything needed to get your project off the ground.
+image: /images/Cover/create-starters.png
 ---
 
 {:.center}
