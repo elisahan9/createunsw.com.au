@@ -4,13 +4,13 @@ title: Store
 permalink: /store/
 tagline: "Orders can be bought and collected from our Globe Lawn stall on Mondays from 12pm to 4pm during semester time only."
 description: Orders can be bought and collected from our Globe Lawn stall on Mondays from 12pm to 4pm during semester time only.
-type: section
+image: /images/Cover/store.jpg
 ---
 
 <style type="text/css">
-	.store-cover {
-		background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/Cover/store.jpg);
-	}
+.store-cover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{page.image}});
+}
 </style>
 
 <div class="jumbotron general-cover store-cover">

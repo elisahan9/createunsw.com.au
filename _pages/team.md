@@ -4,12 +4,12 @@ title: Team
 permalink: /team/
 tagline: "we are entirely composed of student volunteers."
 description: CREATE is entirely composed of student volunteers.
-type: section
+image: /images/Cover/2018_team.jpg
 ---
 
 <style type="text/css">
 .team-cover {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(/images/Cover/2018_team.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url({{page.image}});
 }
 </style>
 

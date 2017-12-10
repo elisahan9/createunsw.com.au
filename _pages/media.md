@@ -4,13 +4,13 @@ title: Media
 permalink: /media/
 tagline: "we are entirely composed of student volunteers."
 description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
-type: section
+image: /images/Cover/media.jpg
 ---
 
 <style type="text/css">
-	.media-cover {
-		background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/Cover/media.jpg);
-	}
+.media-cover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{page.image}});
+}
 </style>
 
 <div class="jumbotron general-cover media-cover">

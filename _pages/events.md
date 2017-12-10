@@ -4,13 +4,13 @@ title: Events
 permalink: /events/
 tagline: "we run various workshops throughout the year."
 description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
-type: section
+image: /images/Cover/events.jpg
 ---
 
 <style type="text/css">
-  .events-cover {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/Cover/events.jpg);
-  }
+.events-cover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{page.image}});
+}
 </style>
 
 <div id="fb-root"></div>

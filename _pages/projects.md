@@ -4,13 +4,13 @@ title: Projects
 permalink: /projects/
 tagline: "create starters and projects"
 description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
-type: section
+image: /images/Cover/team-1.jpg
 ---
 
 <style type="text/css">
-	.projects-cover {
-		background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/images/Cover/team-1.jpg);
-	}
+.projects-cover {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url({{page.image}});
+}
 </style>
 
 <div class="jumbotron general-cover projects-cover">
@@ -37,8 +37,7 @@ type: section
 		{% assign posts = site._projects | sort:"date" | reverse %}
 		{% for post in posts%} {% if post.categories contains cat %}
 		<div class="col-6 col-md-6 col-sm-6 post-card-col">
-			<div style="background: url('{{post.image}}'); background-size: cover"
-				class="card">
+			<div style="background: url('{{post.image}}'); background-size: cover" class="card">
 				<div class="row post-card-col post-card-col-btn">
 					<div class="col-4 col-md-4">
 						<a href="{{post.url}}"><div class="post-card-btn">Read More</div></a>

@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 tagline: "we provide opportunities for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects..."
 description: CREATE aims to provide an opportunity for people to learn practical skills in engineering, invention and design, and collaborate on ideas and projects.
-type: section
+image: /images/Cover/about.jpg
 ---
 
 <style type="text/css">
 .about-cover {
-	background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(/images/Cover/about.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url({{page.image}});
 }
 </style>
 
