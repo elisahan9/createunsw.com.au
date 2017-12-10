@@ -5,8 +5,9 @@ permalink: /starters/
 description: CREATE is very excited to introduce our very own project incubator, CREATE Starters. If you have an idea for a project that involves putting together and making any project, we want to provide you with everything needed to get your project off the ground.
 ---
 
-# CREATE Starters
-## What is CREATE Starters?
+{:.center}
+![CREATE Starters](/images/Cover/create-starters.png)
+
 CREATE is very excited to introduce our very own project incubator, CREATE Starters. If you have an idea for a project that involves putting together and making any project, we want to provide you with everything needed to get your project off the ground. For any project big or small, this is the place to start. We are open to all students at UNSW from any faculty.
 
 We want to help bring your ideas to life by providing support in a number of ways. Becoming a CREATE starter unlocks
