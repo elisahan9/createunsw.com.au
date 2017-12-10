@@ -75,7 +75,6 @@ hr {
   border: 0;
   border-top: 1px solid $grey-color-light;
   margin-top: 2em;
-  margin-buttom: 2em;
   padding-top: 2em;
 }
 
@@ -715,21 +714,21 @@ pre {
     font-size: 1.8rem;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: 22px;
     }
   }
   h3 {
-    font-size: 26px;
+    font-size: 24px;
     @include media-query($on-laptop) {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
   h4 {
     font-size: 20px;
     @include media-query($on-laptop) {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 }
@@ -963,8 +962,6 @@ pre {
 }
 
 
-
-
 .general-cover {
   margin-top: -60px;
   height: 75vh;
@@ -975,17 +972,16 @@ pre {
 }
 .general-cover h1 b{
   z-index: 1;
-  margin-botton:-14px;
+  margin-bottom: -14px;
   font-size: 1.3em;
-  font-family: "Arial";
-  text-shadow: 4px 4px black;
+  text-shadow: 1px 1px black;
 }
 .general-cover span{
-  font-size: 1.15em;
-  background: red;
+  font-size: 1.2em;
+  background: #BA0814;
   margin: 0.4em;
   padding:0.7em;
-  box-shadow: 4px 4px 2px black;
+  box-shadow: 1px 1px 1px black;
   display: inline-block;
 }
 .general-cover span b{
@@ -1149,7 +1145,7 @@ pre {
   margin: 10px;
   bottom: 0;
   left: 0;
-  background-color:rgba(59, 58, 58, 0.9455);
+  background-color:rgba(59, 58, 58, 0.975);
   color: white;
   min-width: 180px;  
   max-width: 380px;
@@ -1167,7 +1163,7 @@ pre {
   font-size: 13px
 }
 .post-card-btn {
-  background-color: rgba(69, 77, 87, 0.804);
+  background-color: rgba(69, 77, 87, 0.904);
   color: white;
   text-transform: none;
   padding: 5px;
@@ -1187,4 +1183,8 @@ pre {
   background-color:rgba(59, 58, 58, 0.855);
   color: white;
   padding: 30px;
+}
+
+.black-text {
+  color: #535d70;
 }

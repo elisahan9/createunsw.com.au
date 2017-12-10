@@ -4,40 +4,29 @@ layout: default
 
 <style type="text/css">
 .post-cover {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url({{ page.image }});
-  height: 40vh;
-}
-.post-cover span{
-  font-size: 0.6em;
-  background: red;
-  margin: 0.4em;
-  padding:0.7em;
-  box-shadow: 4px 4px 2px black;
-  display: inline-block;
-}
-.post-cover span b{
-  text-shadow: 2px 2px black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{page.image}});
 }
 </style>
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <div class="jumbotron general-cover post-cover" >
-        <br>
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <center style="margin-top: -20px">
-          <span>
-          {% if page.author %}
-            By<strong><b class="small-site-title"> {{page.author}} </b></strong>on
-           {% endif %}
-          {% if page.date %}
-            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-          {% endif %}
-          </span>
-        </center>
-      </div>
-    </div>
-  </header>
 
+<div class="jumbotron general-cover post-cover">
+  <div class="wrapper">
+    <center>
+      <h1>
+        <b>{{ page.title }}</b>
+      </h1>
+      <span>
+        {% if page.author %}
+          By<strong><b class="small-site-title"> {{page.author}} </b></strong>on
+          {% endif %}
+        {% if page.date %}
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+        {% endif %}
+      </span>        
+    </center>
+  </div>
+</div>
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">    
   <div class="wrapper">
     <div class="post-content" itemprop="articleBody">
       {{ content }}
