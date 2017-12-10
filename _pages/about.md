@@ -35,7 +35,7 @@ image: /images/Cover/about.jpg
 <div class="manual-post" id="do">
   <div class="manual manual-title">
     <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
-    <strong>What We Do</strong>
+    <strong>About CREATE</strong>
   </div>
   <div class="portfolio-content">
     <br>Founded in October 2012, CREATE NSW Inc. is a student-led organization and maker club based at UNSW Australia.
