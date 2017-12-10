@@ -11,6 +11,7 @@ date: 2017-03-9 19:45:31 +1000
 Thanks to everyone who came along to our BBQ on Monday! We've got an exciting semester planned with our first Hackerspace workshop of the year coming up and many of our project teams are recruiting. This is a fantastic opportunity to learn some great skills and work with a team to produce a project that you might even get to take to Queensland - read on to find out more.
 
 {:.center}
+
 ![](/images/Newsletters/wk2-s1-17-1.jpg)
 
 ## HACKERSPACE W3
@@ -31,7 +32,9 @@ Whether you want the thrill of flying or want to take stunning landscape pics, y
 
 
 ## RECRUITING - UAS
+
 ![](/images/Newsletters/uas.jpeg)
+
 CREATE Unmanned Aerial Systems is looking for new members, especially Compsci students, that have experience in ROS, C++ and image recognition. You will gain extensive experience in the Unmanned Autonomous Vehicle industry and have lots of chances to test your own ideas. Email uas@createunsw.com.au if intereted.
 
 ## Calling design/arts/COFA students

@@ -25,22 +25,28 @@ The workshop is FREE along with the PIZZA after, so come along, learn a cool new
 
 {:.center}
 ![](/images/Newsletters/wk3-s1-17-3.jpg)
+
 ## SALES STALL
 ### W4 Mon 20 March 12-4pm - Globe Lawn
 
 Take your selfies to a whole new level with our quadcopters, now selling on CREATE's website and sales stall! We're on every Monday at Globe Lawn and everything we sell is on our online store. If you can't make it, you can buy online and send us an email to arrange a pickup time.
 
 This photo above of Where's Wally revellers in Cyprus was one of the winners in the 2015 International Drone Photography Contest. Scroll down for some more stunning aerial pictures you could take. We wish we were still on holidays!
+
 {:.center}
 ![](/images/Newsletters/wk3-s1-17-1.jpg)
+
 {:.center}
 ![](/images/Newsletters/wk3-s1-17-2.jpg)
 
 
 ## RECRUITING - UAS
+
 ![CREATE UAS](/images/Newsletters/uas.jpeg)
+
 CREATE Unmanned Aerial Systems is looking for new members, especially Compsci students, that have experience in ROS, C++ and image recognition. You will gain extensive experience in the Unmanned Autonomous Vehicle industry and have lots of chances to test your own ideas. Email uas@createunsw.com.au if intereted.
 
 ![](/images/Newsletters/self-driving.jpg)
+
 ## Want to build your own self driving car?
 CREATE is looking for new people to join one of our 5 established teams, or to make their own teams, to do just that. Whether you want to do this as a learning experience just for fun, or whether you're taking yourselves seriously enough to try to become one of the two teams that we send up to a competition in Queensland this year, you should totally come along to our getting-started-again meeting this Monday, 6pm in the MCIC. Special shoutout to anyone who wants to get their hands dirty with OpenCV image processing software, as most teams presently lack a dedicated software person.

@@ -38,14 +38,20 @@ If you can't make it to the workshop, watch our [live stream](https://www.youtub
 
 
 ## RECRUITING - UAS
+
 ![CREATE UAS](/images/Newsletters/uas.jpeg)
+
 CREATE Unmanned Aerial Systems is looking for new members! Compsci students with experience in ROS, C++ and image recognition, email us at uas@createunsw.com.au and get on board.
 
 ## QUAD KITS FOR SALE
+
 ![Quadcopters](/images/Newsletters/quad.jpg)
+
 CREATE has quadcopter kits for sale! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall!
 
 ## More pics of last week's CREATE-rs!
+
 {:.center}
 ![](/images/Newsletters/wk5-s1-17-1.jpg)
+
 ![](/images/Newsletters/wk5-s1-17-2.jpg)

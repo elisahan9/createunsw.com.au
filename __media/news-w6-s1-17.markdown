@@ -37,14 +37,19 @@ We have a Youtube [live stream](https://www.youtube.com/c/createunsw/live) and t
 
 
 ## RECRUITING - UAS
+
 ![CREATE UAS](/images/Newsletters/uas.jpeg)
+
 CREATE Unmanned Aerial Systems wants Compsci students with experience in ROS, C++ and image recognition to build planes! Email us at uas@createunsw.com.au.
 
 ## QUAD KITS FOR SALE
+
 ![Quadcopters](/images/Newsletters/quad.jpg)
+
 Our quad kits are now available! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall!
 
 ![Aspire Workshops](/images/Newsletters/wk6-s1-17-3.jpg)
+
 ## UNSW ASPIRE Job Opp
 ASPIRE is seeking student assistants to work with ASPIRE staff to develop and trial educational resources focused on introducing coding and computational thinking for students in years 4-8 (ages 9-14). This will involve the use of Raspberry Pi’s, Makey-Makey’s and Sphero robots to create fun activities that can be used in schools. The role will involve some basic knowledge of coding and above average skills in using digital technologies.
 

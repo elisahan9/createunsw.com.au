@@ -12,9 +12,11 @@ date: 2017-05-19 19:45:31 +1000
 It's Flashback Thursday! With the Sydney Vivid festival coming up, we're taking a look back at our previous installations. We cannot wait to unveil what we have for Vivid 2017 - it is bigger, brighter and cannot be missed. Stay tuned for more.
 
 ![Vivid 2016](/images/Newsletters/wk11-s1-17.jpg)
+
 Vivid 2016 - Mondrian cube. Set up in Circular Quay, CREATE learned that if you make something interative, kids will kick it. We love that the cube was a big hit with everyone.
 
 ![Vivid 2016](/images/Newsletters/wk11-s1-17-1.jpg)
+
 Vivid 2015 - Giant robotic Pacman. Technology may get better but Pacman never gets old. Who doesn't want to see giant ghosts hunting down a smiley yellow pie?
 
 ![Vivid 2016](/images/Newsletters/wk11-s1-17-2.jpg)
@@ -35,16 +37,17 @@ Free pizza afterwards!
 ### Still can't attend?
 We have a Youtube [live stream](https://www.youtube.com/c/createunsw/live) and the recording will be available afterwards.
 
-
 ## RECRUITING - UAS
+
 ![CREATE UAS](/images/Newsletters/uas.jpeg)
+
 CREATE Unmanned Aerial Systems wants Compsci students with experience in ROS, C++ and image recognition to build planes! Email us at uas@createunsw.com.au.
 
 ## QUAD KITS FOR SALE
+
 ![Quadcopters](/images/Newsletters/quad.jpg)
+
 Our quad kits are now available! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall!
-
-
 
 Go anywhere you want in the world with one of our quad kits. Take stunning aerial footage and sights that are impossible to see in person. Our kit comes with everything you need to make it fly. Have a chat to us at our Monday 12-4pm stall at Globe Lawn or visit our online store.
 ![](/images/Newsletters/wk11-s1-17-3.gif)

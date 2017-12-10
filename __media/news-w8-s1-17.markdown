@@ -34,14 +34,18 @@ Free pizza afterwards!
 ### Still can't attend?
 We have a Youtube [live stream](https://www.youtube.com/c/createunsw/live) and the recording will be available afterwards.
 
-
 We had our biggest turnout yet with AutoCAD Part I last week!
+
 ![](/images/Newsletters/wk7-s1-17-1.gif)
 
 ## RECRUITING - UAS
+
 ![CREATE UAS](/images/Newsletters/uas.jpeg)
+
 CREATE Unmanned Aerial Systems wants Compsci students with experience in ROS, C++ and image recognition to build planes! Email us at uas@createunsw.com.au.
 
 ## QUAD KITS FOR SALE
+
 ![Quadcopters](/images/Newsletters/quad.jpg)
+
 Our quad kits are now available! These are perfect for surveying, aerial mapping or photography. Our kits come with everything you will need to build and fly it. Come check them out at our stall!

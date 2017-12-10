@@ -32,7 +32,9 @@ Your laptop! The software used in the workshops is free and easy to download and
 If you can't make it to the workshop, watch our live stream on YouTube and check out our Facebook event. See you there! :)
 
 Thanks to everyone who came last week!
+
 ![](/images/Newsletters/wk4-s1-17-1.jpg)
+
 ![](/images/Newsletters/wk4-s1-17-2.jpg)
 
 
