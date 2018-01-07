@@ -30,7 +30,7 @@ image: /images/Cover/team-1.jpg
 		{% for cat in cats %}
 		<div class="manual-post">
 			<div class="manual manual-title" id="{{ cat }}">
-				<strong>{{ cat }}</strong>
+				<strong>{{ cat | replace: '-', ' ' }}</strong>
 			</div>
 		</div>
 		<div class="row post-list">
@@ -48,10 +48,10 @@ image: /images/Cover/team-1.jpg
 					<p>{{ post.content | strip_html | truncatewords: 30}}</p>
 				</div>
 			</div>
-		</div>	
+		</div>
 		{% endif %} {% endfor %}
 		</div>
-		{% endfor %}	
+		{% endfor %}
 	</div>
 </div>
 
