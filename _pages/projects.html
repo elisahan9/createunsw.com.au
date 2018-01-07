@@ -26,7 +26,7 @@ image: /images/Cover/team-1.jpg
 </div>
 <div class="wrapper">
 	<div class="postBody">
-		{% assign cats = site._projects | map: 'categories' | join: ',' | split: ',' | uniq | reverse %}
+		{% assign cats = site._projects | map: 'categories' | join: ',' | split: ',' | uniq %}
 		{% for cat in cats %}
 		<div class="manual-post">
 			<div class="manual manual-title" id="{{ cat }}">
