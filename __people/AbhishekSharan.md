@@ -7,7 +7,7 @@ index: 4
 email-url:
 linkedin-url:
 github-url:
-status: current_executive
+status: past_executive
 year: 2017
 layout: people
 ---
