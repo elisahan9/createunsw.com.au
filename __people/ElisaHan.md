@@ -1,4 +1,3 @@
-.
 ---
 title: "Elisa Han"
 face-url: "/images/Main/ElisaHan.jpg"
