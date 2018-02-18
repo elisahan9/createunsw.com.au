@@ -40,7 +40,11 @@ image: /images/Cover/team-1.jpg
 			<div style="background: url('{{post.image}}'); background-size: cover" class="card">
 				<div class="row post-card-col post-card-col-btn">
 					<div class="col-4 col-md-4">
+					{% if post.link %}
+						<a target="_blank" href="{{post.link}}"><div class="post-card-btn">Read More</div></a>
+					{% else %}
 						<a href="{{post.url}}"><div class="post-card-btn">Read More</div></a>
+					{% endif %}
 					</div>
 				</div>
 				<div class="post-card-contents">

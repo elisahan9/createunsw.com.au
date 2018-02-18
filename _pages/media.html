@@ -42,7 +42,11 @@ image: /images/Cover/media.jpg
 				class="card">
 				<div class="row post-card-col post-card-col-btn">
 					<div class="col-4 col-md-4">
+					{% if post.link %}
+						<a target="_blank" href="{{post.link}}"><div class="post-card-btn">Read More</div></a>
+					{% else %}
 						<a href="{{post.url}}"><div class="post-card-btn">Read More</div></a>
+					{% endif %}
 					</div>
 				</div>
 				<div class="post-card-contents">
@@ -50,10 +54,10 @@ image: /images/Cover/media.jpg
 					<p>{{ post.content | strip_html | truncatewords: 30}}</p>
 				</div>
 			</div>
-		</div>	
+		</div>
 		{% endif %} {% endfor %}
 		</div>
-		{% endfor %}	
+		{% endfor %}
 	</div>
 </div>
 
