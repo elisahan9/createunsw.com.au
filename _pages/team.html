@@ -37,7 +37,7 @@ image: /images/Cover/2018_team.jpg
       {% assign people = site._people | sort:"index" %}
       {% for person in people %}
       {% if person.status contains position %}
-      <div class="col-3 col-md-3 col-sm-3 col-xs-3 post-card-col">
+      <div class="col-3 col-md-3 col-sm-3 post-card-col">
           <a href="{{person.url}}" style="background: url('{{person.face-url}}'); background-size: cover"
               class="card">
 					</a>
@@ -67,7 +67,7 @@ image: /images/Cover/2018_team.jpg
       {% assign people = site._people | sort:"index" %}
       {% for person in people %}
       {% if person.manager %}
-      <div class="col-3 col-md-3 col-sm-3 col-xs-3 post-card-col">
+      <div class="col-3 col-md-3 col-sm-3 post-card-col">
 				<a href="{{person.url}}" style="background: url('{{person.face-url}}'); background-size: cover"
 						class="card">
 				</a>
@@ -97,7 +97,7 @@ image: /images/Cover/2018_team.jpg
       {% assign people = site._people | sort:"index" %}
       {% for person in people %}
       {% if person.status contains position %}
-      <div class="col-3 col-md-3 col-sm-3 col-xs-3 post-card-col">
+      <div class="col-3 col-md-3 col-sm-3 post-card-col">
 				<a href="{{person.url}}" style="background: url('{{person.face-url}}'); background-size: cover"
 						class="card">
 				</a>
