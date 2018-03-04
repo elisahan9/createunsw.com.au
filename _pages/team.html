@@ -38,15 +38,13 @@ image: /images/Cover/2018_team.jpg
       {% for person in people %}
       {% if person.status contains position %}
       <div class="col-3 col-md-3 col-sm-3 col-xs-3 post-card-col">
-          <div style="background: url('{{person.face-url}}'); background-size: cover"
+          <a href="{{person.url}}" style="background: url('{{person.face-url}}'); background-size: cover"
               class="card">
-              <a href="{{person.url}}">
-                <div class="post-card-contents">
-                    <h2>{{ person.title }}</h2>
-                    <p>{{ person.role | strip_html | truncatewords: 30}}</p>
-                </div>
-              </a>
-          </div>
+					</a>
+					<div>
+						<h2>{{ person.title }}</h2>
+						<p>{{ person.role | strip_html | truncatewords: 30}}</p>
+					</div>
       </div>
       {% endif %}
       {% endfor %}
@@ -70,16 +68,14 @@ image: /images/Cover/2018_team.jpg
       {% for person in people %}
       {% if person.manager %}
       <div class="col-3 col-md-3 col-sm-3 col-xs-3 post-card-col">
-          <div style="background: url('{{person.face-url}}'); background-size: cover"
-              class="card">
-              <a href="{{person.url}}">
-                <div class="post-card-contents">
-                    <h2>{{ person.title }}</h2>
-                    <p>{{ person.manager | strip_html | truncatewords: 30}}</p>
-                </div>
-              </a>
-          </div>
-      </div>
+				<a href="{{person.url}}" style="background: url('{{person.face-url}}'); background-size: cover"
+						class="card">
+				</a>
+				<div>
+					<h2>{{ person.title }}</h2>
+					<p>{{ person.manager }}</p>
+				</div>
+			</div>
       {% endif %}
       {% endfor %}
     </div>
@@ -102,16 +98,14 @@ image: /images/Cover/2018_team.jpg
       {% for person in people %}
       {% if person.status contains position %}
       <div class="col-3 col-md-3 col-sm-3 col-xs-3 post-card-col">
-          <div style="background: url('{{person.face-url}}'); background-size: cover"
-              class="card">
-              <a href="{{person.url}}">
-                <div class="post-card-contents">
-                    <h2>{{ person.title }}</h2>
-                    <p>{{ person.role | strip_html | truncatewords: 30}} ({{ person.year }})</p>
-                </div>
-              </a>
-          </div>
-      </div>
+				<a href="{{person.url}}" style="background: url('{{person.face-url}}'); background-size: cover"
+						class="card">
+				</a>
+				<div>
+					<h2>{{ person.title }}</h2>
+					<p>{{ person.role | strip_html | truncatewords: 30}}</p>
+				</div>
+			</div>
       {% endif %}
       {% endfor %}
     </div>
