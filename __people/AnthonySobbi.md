@@ -10,6 +10,7 @@ github-url:
 status: current_executive
 year: 2018
 layout: people
+manager: "CREATE UAS"
 ---
 Anthony Fezi-Sobbi - 2018
 President - 2017
