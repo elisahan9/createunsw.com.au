@@ -58,7 +58,7 @@ image: /images/Cover/store.jpg
 		<div class="row post-list">
 			{% assign products = site._products | sort:"title" %}
 			{% for post in products%} {% if post.category contains cat %}
-			<div class="col-4 col-md-4 col-sm-4 post-card-col">
+			<div class="col-3 col-md-3 col-sm-3 post-card-col">
 				<div style="background: url('{% if post.image %} {{ post.image }} {% else %} {{ '/images/Sales/no-photo.jpg' }} {% endif %}'); background-size: cover"
 					class="card">
 					<div class="row post-card-col post-card-col-btn">
@@ -68,7 +68,6 @@ image: /images/Cover/store.jpg
 					</div>
 					<div class="post-card-contents">
 						<h2>{{ post.title }} <span>{{ post.date | date: "%b %-d, %Y" }}</span></h2>
-						<p>{{ post.content | strip_html | truncatewords:10}}</p>
 						<div style="display:inline;">
 							<form target='paypal' action='https://www.paypal.com/cgi-bin/webscr' method='post'>
 								<input type='hidden' name='add' value='1'>
