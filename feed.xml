@@ -13,7 +13,7 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% assign posts = site._media | concat: site._projects | sort:"date" | reverse %}
     {% for post in posts limit:200 %}
-      <item>
+      <item> 
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | strip_html | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
