@@ -71,17 +71,17 @@ Our heartfelt thanks go out to the following individuals or organisations for th
 ### Project design and support
 **[Destination NSW](https://www.destinationnsw.com.au/) and [AGB Events](agbevents.com.au) **: Artwork curation 
 
-** [Event Engineering](https://www.eventengineering.com.au/) **: Artwork certification
+**[Event Engineering](https://www.eventengineering.com.au/)**: Artwork certification
 
-** [UNSW Faculty of Engineering](https://www.engineering.unsw.edu.au/) **: Student-led project support
+**[UNSW Faculty of Engineering](https://www.engineering.unsw.edu.au/)**: Student-led project support
 
-** [UNSW Faculty of Built Environment](https://www.be.unsw.edu.au/) **: Fabrication and assembly services
+**[UNSW Faculty of Built Environment](https://www.be.unsw.edu.au/)**: Fabrication and assembly services
 
-** [UNSW Faculty of Art & Design](https://artdesign.unsw.edu.au/) **: Fabrication and assembly services, mentorship
+**[UNSW Faculty of Art & Design](https://artdesign.unsw.edu.au/)**: Fabrication and assembly services, mentorship
 
-** [Michael Crouch Innovation Centre](www.mcic.unsw.edu.au) **: Fabrication and assembly services
+**[Michael Crouch Innovation Centre](www.mcic.unsw.edu.au)**: Fabrication and assembly services
 
-** [Arc @ UNSW](https://www.arc.unsw.edu.au/) **: Project funding through Student Community & Development Grants
+**[Arc @ UNSW](https://www.arc.unsw.edu.au/)**: Project funding through Student Community & Development Grants
 
 ### Our volunteers
 #### CREATE UNSW
