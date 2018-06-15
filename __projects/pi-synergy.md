@@ -1,8 +1,8 @@
 ---
 categories: project-illuminate
-title: Vivid Sydney 2017 - Crystallise
-slug: vivid-crystallise
-image: /images/Newsletters/wk12-s1-17-3.gif
+title: Vivid Sydney 2018 - Synergy
+slug: vivid-synergy
+image: /images/Projects/synergy2.jpg
 layout: post
 author: Junji Moey
 date: 2018-06-15 19:45:31 +1000
