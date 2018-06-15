@@ -14,7 +14,7 @@ Facebook: [CREATE Project Illuminate](https://www.facebook.com/create.project.il
 
 ([Click here](https://www.engineering.unsw.edu.au/news/shining-lights) to read our feature in the UNSW Engineering Newsletter on Synergy’s test build.)
 
-** Circular Quay, NSW - Friday 25 May 2018 ** - CREATE NSW Inc., a student-run club at the University of New South Wales, presents [Synergy](https://www.vividsydney.com/event/light/synergy), its 2018 entry for the Vivid Festival. This project marks our first collaboration with MAKE CLUB (est. 2016) CREATE's sister club from university’s Art & Design campus. In addition, the existing Vivid Team within CREATE has been officially branded Project Illuminate. This has been done to mark the welcome introduction of skilled designers into our team, our long-term commitment to the Vivid Sydney program, and this team’s unique specialisation in interactive artworks. 
+**Circular Quay, NSW - Friday 25 May 2018** - CREATE NSW Inc., a student-run club at the University of New South Wales, presents [Synergy](https://www.vividsydney.com/event/light/synergy), its 2018 entry for the Vivid Festival. This project marks our first collaboration with MAKE CLUB (est. 2016) CREATE's sister club from university’s Art & Design campus. In addition, the existing Vivid Team within CREATE has been officially branded Project Illuminate. This has been done to mark the welcome introduction of skilled designers into our team, our long-term commitment to the Vivid Sydney program, and this team’s unique specialisation in interactive artworks. 
 
 Synergy, which marks CREATE’s fifth year of involvement with the Vivid Sydney festival, presents a pretty tableau from nature - a large plywood tree surrounded by ferns. This deceptively simple scene however, represents the interlinked mechanisms of a superorganism. In these complex beings, inconspicuous organisms demonstrate emergent properties by sharing signals and nutrients for the greater good of the collective. In Synergy, this survival mechanism is demonstrated by the  illumination of the ferns which are triggered by the passage of visitors along the path. 
 
@@ -69,7 +69,7 @@ Engineering/Mathematics
 Our heartfelt thanks go out to the following individuals or organisations for their hard work, without which our project would not have been possible. 
 
 ### Project design and support
-**[Destination NSW](https://www.destinationnsw.com.au/) and [AGB Events](agbevents.com.au) **: Artwork curation 
+**[Destination NSW](https://www.destinationnsw.com.au/) and [AGB Events](agbevents.com.au)**: Artwork curation 
 
 **[Event Engineering](https://www.eventengineering.com.au/)**: Artwork certification
 
