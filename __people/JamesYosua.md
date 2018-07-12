@@ -1,5 +1,5 @@
 ---
-title: "James Yosua"
+title: "James Yo"
 face-url: "/images/Main/JamesYosua.jpg"
 cover-url: ""
 role: "Co-VP of Sales"
